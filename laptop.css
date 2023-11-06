@@ -1,0 +1,384 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+#navbar {
+     background-color: #2a2131;
+     font-size: 18px;
+     padding: 18px;
+     font-family: 'Roboto Slab', serif;
+     /* box-shadow: 0px 5px 10px #1f1f27; */
+     position: fixed;
+     top: 0;
+     z-index: 999;
+     width: 100%;
+
+}
+
+.top-navbar {
+     height: 6vh;
+     background-color: #2a2131;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-left: 350px;
+     justify-content: space-between;
+}
+
+.top-icons {
+     margin-left: 45px;
+}
+
+.top-icons i {
+     font-size: 20px;
+     color: #3e4efa;
+     margin-left: 10px;
+     cursor: pointer;
+}
+
+.other-links {
+     margin-right: 33px;
+}
+
+.other-links i {
+     color: #3e4efa;
+     font-size: 20px;
+     margin-left: 10px;
+     cursor: pointer;
+}
+
+#btn-login {
+     width: 127px;
+     border: 2px solid #3e4efa;
+     color: #3e4efa;
+     font-weight: bold;
+     border-radius: 25px;
+     height: 5vh;
+     transition: 0.5s ease;
+     cursor: pointer;
+}
+
+#btn-login a {
+     text-decoration: none;
+     color: #3e4efa;
+     transition: 0.5s ease;
+}
+
+#btn-login a:hover {
+     background-color: #3e4efa;
+     color: white;
+}
+
+#btn-login:hover {
+     background-color: #3e4efa;
+     color: white;
+}
+
+.home {
+     background-image: url(./image/b1.jpg);
+     width: 100%;
+     height: 77vh;
+     margin-top: 40px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 88%;
+}
+
+#top-cards {
+     margin-top: 30px;
+     font-family: 'Roboto Slab', serif;
+}
+
+#top-cards .card img {
+     height: 60vh;
+}
+
+#top-cards h5 {
+     color: #1c1c50;
+     font-weight: bold;
+}
+
+#top-cards button {
+     width: 150px;
+     height: 33px;
+     font-weight: bold;
+     letter-spacing: 3px;
+     background: transparent;
+     color: #1c1c50;
+     border: 2px solid #1c1c50;
+     transition: 0.5s ease;
+     cursor: pointer;
+}
+
+#top-cards button:hover {
+     background-color: #1c1c50;
+     color: white;
+}
+
+#product-cards {
+     font-family: 'Roboto Slab', serif;
+     margin-top: 100px;
+}
+
+#product-cards .card {
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#product-cards h1 {
+     margin-top: 30px;
+     color: #1c1c50;
+     text-shadow: 1px 1px 1px black;
+}
+
+#product-cards h3 {
+     letter-spacing: 3px;
+     color: #1c1c50;
+     text-shadow: 0px 1px 1px black;
+     font-weight: bold;
+}
+
+#product-cards h5 span {
+     float: right;
+     color: #1c1c50;
+     cursor: pointer;
+}
+
+.checked {
+     color: rgb(255, 187, 0);
+}
+
+#viewmorebtn {
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     text-decoration: none;
+     margin-top: 30px;
+     width: 200px;
+     height: 32px;
+     color: #1c1c50;
+     letter-spacing: 5px;
+     font-weight: bold;
+     background: transparent;
+     border: 2px solid #1c1c50;
+     transition: 0.5s ease;
+}
+
+#viewmorebtn:hover {
+     background-color: #1c1c50;
+     color: white;
+}
+
+#footer {
+     padding: 0 0 30px 0;
+     color: #d0d0d0;
+     font-size: 14px;
+     background: #2a2131;
+     font-family: 'Roboto Slab', serif;
+}
+
+#footer .footer-top {
+     padding: 60px 0 30px;
+     background: #2a2131;
+     color: white;
+}
+
+#footer .footer-top .footer-contact h3 {
+     color: white;
+     text-shadow: 1px 1px 1px black;
+}
+
+#footer .footer-top .footer-contact h4 {
+     font-size: 22px;
+     margin: 0 0 300px 0;
+     padding: 2px 0 2px 0;
+     line-height: 1;
+     font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+     font-size: 14px;
+     margin: 0;
+     color: white;
+     line-height: 1;
+     font-weight: 700;
+}
+
+#footer .footer-top h4 {
+     font-size: 16px;
+     font-weight: bold;
+     position: relative;
+     padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+     margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+     padding-right: 10px 0;
+     display: flex;
+     align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+     padding: 0;
+}
+
+#footer .footer-top .footer-links ul li a {
+     color: white;
+     line-height: 2;
+}
+
+#footer .footer-top .socail-links a {
+     font-size: 18px;
+     display: inline-block;
+     color: white;
+     line-height: 1;
+     padding-right: 4px;
+     border-radius: 50px;
+     text-align: center;
+     width: 36px;
+     height: 36px;
+     transition: 0.5s ease;
+}
+
+#footer .copyright {
+     text-align: center;
+     float: left;
+}
+
+#footer .credits {
+     float: right;
+     text-align: center;
+}
+
+.arrow {
+     position: fixed;
+     background-color: #efe9e0;
+     border-radius: 50px;
+     height: 50px;
+     bottom: 40px;
+     right: 50px;
+     text-decoration: none;
+     align-items: center;
+     line-height: 50px;
+}
+
+#side2 {
+     background-color: white;
+     border-radius: 5px;
+     height: 350px;
+     margin-top: 150px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     align-items: center;
+     text-align: center;
+     margin-left: 200px;
+}
+
+#side2 h3 {
+     margin-top: 50px;
+     color: #1c1c50;
+     font-weight: bold;
+}
+
+#side2 .inp {
+     margin-top: 32px;
+     color: #3e4efa;
+}
+
+#side2 input {
+     width: 500px;
+     margin-top: 20px;
+     height: 36px;
+     border-radius: 15px;
+     align-items: center;
+     border: none;
+     border: 1px solid #3e4efa;
+}
+
+#side2 p {
+     margin-top: 20px;
+     cursor: pointer;
+}
+
+#side2 .icons i {
+     margin-left: 10px;
+     cursor: pointer;
+}
+
+#login {
+     margin-top: 10px;
+}
+
+#login button {
+     width: 200px;
+     height: 38px;
+     border-radius: 25px;
+     border: 2px solid #3e4efa;
+     font-weight: bold;
+     color: #3e4efa;
+     transition: 0.5s ease;
+     cursor: pointer;
+}
+
+#login button:hover {
+     background-color: #3e4efa;
+     color: white;
+}
+
+.tabs {
+     display: flex;
+     justify-content: space-between;
+}
+
+.tabs a {
+     width: 10%;
+     display: block;
+     padding: 13px;
+     text-align: center;
+     border: 1px solid #3e4efa;
+     background-color: #fff;
+     color: #333;
+     text-decoration: none;
+     border-radius: 4px;
+     margin-top: 10px;
+}
+
+.list1 {
+     margin-left: 34%;
+}
+
+.list2 {
+     margin-right: 0%;
+}
+
+.list3 {
+     margin-right: 34%;
+}
+
+.tabs a:hover {
+     background-color: #8133EF;
+}
+
+.tabs a:active,
+.tabs a:focus {
+     background-color: #8133EF;
+     outline: none;
+}
+
+.tab-content {
+     display: none;
+}
+
+.tab-content:target {
+     display: block;
+     font-style: oblique;
+}
